@@ -10,11 +10,6 @@ The platform allows users to browse products, manage carts, place orders, and en
 
 ---
 
-## 💻 Local Setup
-👉 http://localhost:3000
-
----
-
 ## 🎯 Objective
 
 The objective of this project is to build a complete e-commerce system that:
@@ -68,8 +63,9 @@ The objective of this project is to build a complete e-commerce system that:
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 ecommerce/
 ├── server.js
 ├── .env
@@ -89,22 +85,12 @@ ecommerce/
 │   └── auth.js
 └── public/
     ├── css/
-    │   └── style.css
     ├── js/
-    │   └── app.js
     └── pages/
-        ├── index.html
-        ├── login.html
-        ├── register.html
-        ├── products.html
-        ├── cart.html
-        ├── checkout.html
-        ├── orders.html
-        └── vendor.html
 
----
+```
 
-### Steps to Run Locally
+## Steps to Run Locally
 
 ```bash
 # Clone repository
