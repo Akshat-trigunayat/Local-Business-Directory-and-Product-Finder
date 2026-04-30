@@ -9,11 +9,6 @@ A full-stack e-commerce web application that supports both **Buyer** and **Vendo
 
 ---
 
-## 💻 Local Setup
-http://localhost:3000
-
----
-
 ## ✨ Features
 
 ### 👤 Buyer
@@ -54,6 +49,33 @@ http://localhost:3000
 - Node.js (v16 or higher)  
 - MongoDB (Local or Atlas)  
 
+---
+
+## Project Structure
+ecommerce/
+├── server.js
+├── .env
+├── models/
+│   ├── User.js
+│   ├── Business.js
+│   ├── Product.js
+│   ├── Cart.js
+│   └── Order.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── businessRoutes.js
+│   ├── productRoutes.js
+│   ├── cartRoutes.js
+│   └── orderRoutes.js
+├── middleware/
+│   └── auth.js
+└── public/
+    ├── css/
+    ├── js/
+    └── pages/
+
+---
+
 ### Steps
 
 ```bash
@@ -75,3 +97,5 @@ npm start
 
 # OR (for development)
 npm run dev
+
+
