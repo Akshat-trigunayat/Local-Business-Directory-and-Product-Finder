@@ -51,28 +51,30 @@ A full-stack e-commerce web application that supports both **Buyer** and **Vendo
 
 ---
 
-## Project Structure
+## 📁 Project Structure
+
+
 ecommerce/
 ├── server.js
 ├── .env
 ├── models/
-│   ├── User.js
-│   ├── Business.js
-│   ├── Product.js
-│   ├── Cart.js
-│   └── Order.js
+│ ├── User.js
+│ ├── Business.js
+│ ├── Product.js
+│ ├── Cart.js
+│ └── Order.js
 ├── routes/
-│   ├── authRoutes.js
-│   ├── businessRoutes.js
-│   ├── productRoutes.js
-│   ├── cartRoutes.js
-│   └── orderRoutes.js
+│ ├── authRoutes.js
+│ ├── businessRoutes.js
+│ ├── productRoutes.js
+│ ├── cartRoutes.js
+│ └── orderRoutes.js
 ├── middleware/
-│   └── auth.js
+│ └── auth.js
 └── public/
-    ├── css/
-    ├── js/
-    └── pages/
+├── css/
+├── js/
+└── pages/
 
 ---
 
