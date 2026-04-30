@@ -1,103 +1,128 @@
 # 🛒 ShopEase - Full E-Commerce Web Application
 
-A full-stack e-commerce web application that supports both **Buyer** and **Vendor** functionalities, allowing users to browse products, manage orders, and handle business operations efficiently.
+A full-stack e-commerce web application that supports both **Buyer** and **Vendor** functionalities.  
+The platform allows users to browse products, manage carts, place orders, and enables vendors to manage their business and products efficiently.
 
 ---
 
 ## 🚀 Live Demo
-👉 https://local-business-directory-and-product.onrender.com/products
+👉 https://your-project-name.onrender.com  
+
+---
+
+## 💻 Local Setup
+👉 http://localhost:3000
+
+---
+
+## 🎯 Objective
+
+The objective of this project is to build a complete e-commerce system that:
+- Connects buyers with vendors
+- Provides a seamless shopping experience
+- Demonstrates full-stack development concepts
 
 ---
 
 ## ✨ Features
 
 ### 👤 Buyer
-- Register/Login as Buyer  
-- Browse and search products  
-- Add products to cart and manage quantities  
-- Checkout with shipping details  
-- Select payment methods (COD / UPI / Card)  
-- View order history and cancel orders  
+- User Registration & Login  
+- Browse & Search Products  
+- Add to Cart & Manage Quantity  
+- Checkout with Shipping Address  
+- Payment Options (COD / UPI / Card)  
+- Order History & Cancel Orders  
 
 ---
 
 ### 🏪 Vendor
-- Register/Login as Vendor  
-- Create and manage business profile  
-- Add, edit, and delete products  
-- Manage product stock  
-- View customer orders  
-- Update order status (Pending → Confirmed → Shipped → Delivered)  
-- Dashboard with revenue insights  
+- Vendor Registration & Login  
+- Business Profile Management  
+- Add / Edit / Delete Products  
+- Stock Management  
+- View Customer Orders  
+- Update Order Status  
+- Revenue Dashboard  
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Frontend: HTML, CSS, JavaScript  
-- Backend: Node.js, Express.js  
-- Database: MongoDB (Mongoose)  
-- Authentication: express-session  
-- Deployment: Render  
-- Database Hosting: MongoDB Atlas  
+| Layer | Technology |
+|------|-----------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js, Express.js |
+| Database | MongoDB (Mongoose) |
+| Authentication | express-session |
+| Deployment | Render |
+| Cloud Database | MongoDB Atlas |
 
 ---
 
 ## 🛠️ Setup & Installation
 
 ### Prerequisites
-- Node.js (v16 or higher)  
+- Node.js (v16+)  
 - MongoDB (Local or Atlas)  
 
 ---
 
-## 📁 Project Structure
-
+📁 Project Structure
 
 ecommerce/
 ├── server.js
 ├── .env
 ├── models/
-│ ├── User.js
-│ ├── Business.js
-│ ├── Product.js
-│ ├── Cart.js
-│ └── Order.js
+│   ├── User.js
+│   ├── Business.js
+│   ├── Product.js
+│   ├── Cart.js
+│   └── Order.js
 ├── routes/
-│ ├── authRoutes.js
-│ ├── businessRoutes.js
-│ ├── productRoutes.js
-│ ├── cartRoutes.js
-│ └── orderRoutes.js
+│   ├── authRoutes.js
+│   ├── businessRoutes.js
+│   ├── productRoutes.js
+│   ├── cartRoutes.js
+│   └── orderRoutes.js
 ├── middleware/
-│ └── auth.js
+│   └── auth.js
 └── public/
-├── css/
-├── js/
-└── pages/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── app.js
+    └── pages/
+        ├── index.html
+        ├── login.html
+        ├── register.html
+        ├── products.html
+        ├── cart.html
+        ├── checkout.html
+        ├── orders.html
+        └── vendor.html
 
 ---
 
-### Steps
+### Steps to Run Locally
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/your-username/your-repo.git
 
-# Navigate to project folder
+# Navigate into project
 cd ecommerce
 
 # Install dependencies
 npm install
 
-# Create a .env file and add:
+# Create .env file and add:
 MONGODB_URI=your_mongodb_connection_string
 SESSION_SECRET=your_secret_key
 
-# Start the server
+# Start server
 npm start
 
-# OR (for development)
+# OR (development mode)
 npm run dev
-
 
