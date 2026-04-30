@@ -41,9 +41,8 @@ npm start
 npm run dev
 ```
 
-### Open in browser
-```
-http://localhost:3000
+## 🌐 Live Demo
+https://your-project-name.onrender.com
 ```
 
 ## Project Structure
